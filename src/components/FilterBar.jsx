@@ -7,7 +7,11 @@ export const FilterBar = () => {
 	return (
 		<div className={`container-filters ${active ? 'active' : ''}`}>
 			<div className='filter-by-type'>
+				<div>
+				<button onclick="window.history.back()">Atras</button>
+				</div>
 				<span>Tipo</span>
+
 
 				<div className='group-type'>
 					<input
